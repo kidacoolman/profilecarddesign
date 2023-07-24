@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Html tags and Styling with css</title>
+    <style>
+        form{
+            color: rgb(3, 120, 13);font-size: larger
+        }
+    </style>
+  </head>
+  <body>
+    <h1>HTML forms</h1>
+
+    <form>
+      <label for="username">Enter Username</label>
+      <input type="text" id="username" name="Username" placeholder="name" required/>
+      <br /><br />
+      <label for="Email">Enter Email</label>
+      <input type="text" id="Email" name="Email" placeholder="email" required/>
+      <br /><br />
+      <label for="Password">Enter Password</label>
+      <input type="password" id="Password" name="Password" placeholder="password" required/>
+      <br /><br />
+
+      <p>Select Your Age</p>
+      <input type="radio" name="Age" value="0-20" id="Option 1" />
+      <label for="Option 1">0-20</label>
+      <input type="radio" name="Age" value="21-50" id="Option 2" />
+      <label for="Option 1">21-50</label>
+      <input type="radio" name="Age" value="51+" id="Option 3" />
+      <label for="Option 1">51+</label>
+      <br /><br />
+
+      <label for="question">Security questions</label>
+      <select name="questions" id="questions">
+        <option value="q1">what country are you from?</option>
+        <option value="q2">What is the name of your first car?</option>
+        <option value="q3">How long have you been a football player?</option>
+
+        <br/><br/>
+
+        <label for="answer">security question answers</label>
+        <input type="text" id="answer" name="answer" placeholder="answer">
+
+        <br /><br />
+        <label for="">Your bio</label>
+        <br><br>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="About you"></textarea>
+        
+        <br><br>
+
+        <input type="submit" value="submit your form">
+
+        <button>edit</button>
+      
+    </form>
+
+  </body>
+</html>
